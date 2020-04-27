@@ -105,7 +105,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <classpathPrefix>src/main/java</classpathPrefix>
+                            <classpathPrefix>${basedir}/src/main/java</classpathPrefix>
                             <mainClass>SampleAtmosphereApplication</mainClass>
                         </manifest>
                     </archive>
